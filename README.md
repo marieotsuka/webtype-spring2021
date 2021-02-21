@@ -1,2 +1,5 @@
-# webtype-spring2021
- Class site for RISD webtype spring 2021
+## Class Site
+https://risd-web.github.io/webtype-spring2020/
+
+## Student Work
+https://risd-web.github.io/webtype-spring2020/students/
