@@ -1,0 +1,14 @@
+{{ define "main" }}
+	<main class='{{- .Params.category | default "default" -}}'>
+		<article id="{{ .Title | urlize }}">
+			<h1>{{ .Title }}</h1>
+			<time>{{ .Date.Format "January 2, 2006" }}</time>
+			
+			{{- with .Content -}}
+			   {{ . | replaceRE "(<h[1-9]) id=\"([^\"]+)\">(.+</h[1-9]+>)" `${1}><a id="${2}" class="anchor" ariaLabel="Anchor"></a> ${3}` | safeHTML }}
+			{{- end -}}
+
+		</article>
+		{{ partial "sidebar" . }}
+	</main>
+{{ end }}

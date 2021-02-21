@@ -1,0 +1,14 @@
+<header>
+	<a href="{{ .Site.BaseURL }}" class="home">{{ .Site.Title }}</a>
+	{{ with .Site.Menus.main }}
+	<nav>
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</nav>
+	{{ end }}
+	<div id="dark-mode">
+	</div>
+</header>

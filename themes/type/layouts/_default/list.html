@@ -1,0 +1,20 @@
+	{{ define "main" }}
+	<main>
+		<article>
+			{{ if or .Title .Content }}
+				{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+				{{ with .Content }}<p>{{ . }}</p>{{ end }}
+			{{ end }}
+			<ul class="index-list">
+			{{ range .Paginator.Pages }}
+				<li>
+					<a href="{{ .Permalink }}">{{ .Title }}</a>
+					<time>{{ .Date.Format "January 2, 2006" }}</time>
+					{{ with .Page.Params.summary}}<p>{{ . }}</p>{{ end }}
+				</li>
+			{{ end }}
+			</ul>
+		</article>
+		{{ partial "sidebar" . }}
+	</main>
+{{ end }}
