@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Web Type</title>
+    <link>https://risd-web.github.io/webtype-spring2021/projects/</link>
+    <description>Recent content in Projects on Web Type</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://risd-web.github.io/webtype-spring2021/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Index</title>
+      <link>https://risd-web.github.io/webtype-spring2021/projects/collection/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2021/projects/collection/</guid>
+      <description>Documentation Develop a single webpage that provides a link to each project you’ve completed this semester. This index page will serve as a homepage for this class. You might also include exercises or alternate drafts that you experimented before developing the final version of your website. As you organize / reorganize your Github repository, make sure to double check that all links, including assets such as fonts and images, are properly linked.</description>
+    </item>
+    
+    <item>
+      <title>Project 4: Editorial</title>
+      <link>https://risd-web.github.io/webtype-spring2021/projects/project4/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2021/projects/project4/</guid>
+      <description>The next phase is our final project — the goal is to engage in editorial design on the web, developing a collection of texts as as a publication. Below are several directions on how you might go about doing this.
+General requirements:
+ Typeset at least 12 longform articles Design at least 2 types of article layouts, in addition to the homepage Consider what kind of viewing modes are available for Consider the relationship between images &amp;amp; words Experiment with how we navigate from one article to another Develop a robust typographic identity system, paying careful attention to typographic hierarchy and refinements  a) Web Publication / Anthology Consider a current area of research.</description>
+    </item>
+    
+    <item>
+      <title>Project 2 &amp; 3: Typeface as a Medium</title>
+      <link>https://risd-web.github.io/webtype-spring2021/projects/project2-3/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2021/projects/project2-3/</guid>
+      <description>“But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.” – Keller Eastering
+ Reading  Keller Easterling: Medium Design (Excerpt) Typotheque: Typeface as Programme  Project 2 Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.</description>
+    </item>
+    
+    <item>
+      <title>Project 1: A Metaphor</title>
+      <link>https://risd-web.github.io/webtype-spring2021/projects/project1/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://risd-web.github.io/webtype-spring2021/projects/project1/</guid>
+      <description>“My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.</description>
+    </item>
+    
+  </channel>
+</rss>
