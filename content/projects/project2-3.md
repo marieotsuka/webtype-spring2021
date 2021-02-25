@@ -1,6 +1,7 @@
 ---
 title: "Project 2 & 3: Typeface as a Medium"
 date: 2020-02-26
+draft: true
 reference: 
  - title: "DJR: Input"
    link: "https://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputSans&width=300&weight=300&line-height=1.2&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please"

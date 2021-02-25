@@ -1,6 +1,7 @@
 ---
 title: "Project 4: Editorial"
 date: 2020-03-30
+draft: true
 reference: 
   - title: "for/with/in"
     link: "http://htmloutput.risd.gd/"
