@@ -2,13 +2,13 @@
 	<nav>
 		<ul>
 			<li><a href="{{ .Site.BaseURL }}" class="home">{{ .Site.Title }}</a></li>
-			{{ with .Site.Menus.main }}
-			{{ range . }}
-			<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+			{{ $current := . }}
+			{{ range .Site.Menus.main }}
+				{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+				<li><a href="{{ .URL }}" class="{{ if $active }}active{{ end }}">{{ .Name }}</a></li>
 			{{ end }}
 		</ul>
 	</nav>
-	{{ end }}
-	<div id="dark-mode">
-	</div>
+	<!-- <div id="dark-mode">
+	</div> -->
 </header>

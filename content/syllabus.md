@@ -2,15 +2,15 @@
 title: "Syllabus"
 date: "2021-02-18"
 menu: "main"
-weight: 5
+weight: 1
 ---
 
 ## Course Information
 * WEB TYPE (RISD GRAPH-2313-01), Spring 2021
-* 3 credits
+* 3 credit elective
 * Marie Otsuka (motsuka@risd.edu)
-* Class Meetings: Thursdays, 1:10pm–6:10pm 
-* Office Hours: Fridays
+* [Class Meetings on Zoom](https://risd.zoom.us/j/8072945194): Thursdays, 1:10pm–6:10pm EST
+* [Office Hours]((https://docs.google.com/spreadsheets/d/1iLWtgjB2GGkPRLjlcwTficTPRG5eHi7RBHwl1bIZipE/edit?usp=sharing)): Fridays 1:00–2:00pm EST and by appointment
 
 
 ## Course Description
@@ -22,7 +22,7 @@ This course is purposely named with shortened, less precise versions the words �
 
 *Type* could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; or to type, the act of typing, or writing, or coding.
 
-Both are fundamental for communication: one a medium for its distribution, the other its foundational visual form. As designers, it is essential that we can critically create work that thrives at their intersection.
+Both are fundamental for communication: one a medium for its distribution, the other its foundational visual form. As designers, it is essential that we can critique and create work that thrives at their intersection.
 
 ## Course Objectives and Learning Outcomes
 
@@ -49,16 +49,13 @@ Both are fundamental for communication: one a medium for its distribution, the o
 	* Github account or personal hosting space
 	* A text editor for coding such as Sublime Text, Atom, Visual Studio Code
 	* A Slack account
+	* Glyphs
 
 
 ## Course Structure
 
 ### Projects
-* We will have [4 projects]({{< ref "/projects" >}}) over the course of the semester.
-
-
-### Exercises
-Technical exercises, both in and outside of class, will strengthen our coding skills to build robust web pages and enhance our expressive capacity on the web.
+* We will have [projects and exercises]({{< ref "/projects" >}}) over the course of the semester. 
 
 ### Critiques
 During our crits, we will review your project based on the evaluation criteria outlined below. Projects should be live and working on the web with no missing assets — you should try accessing the URL from a different computer / device prior to the class. Be prepared to describe your design process. While we can raise technical questions here, critique time should not be used for troubleshooting; these should be addressed prior to the crit either by consulting your classmates or via office hours.
@@ -66,20 +63,26 @@ During our crits, we will review your project based on the evaluation criteria o
 ### Readings
 Readings will be dispersed throughout the semester to inform and contextualize our work with each project. Be prepared to respond, raise questions, and discuss the text during class.
 
-### Discussion
+### Presentation & Discussion
 In addition to reading discussions and class critiques, we will have a weekly *show & tell* to share an interesting website or two we’ve each come across over the past week.
 
-Each student is also responsible for preparing a *presentation* on a designer / artist using the browser as an expressive medium. View [this list]() to start.
+Each student is also responsible for preparing a 15min *presentation* on a designer / artist using the browser as an expressive medium. View [this list]() to start.
+
+### Exercises
+Technical exercises, both in and outside of class, will strengthen our coding skills to build robust web pages and enhance our expressive capacity on the web. (Projects are longer term assignments we will crit during class, whereas exercises are shorter tasks that will familiarize you with a technical concept.)
+
+### Online Tutorials
+Web tutorials, such as on Codecademy, will help supplement the technical instruction.
 
 
 ## Policies
 ### Attendance
-You are expected attend every class, on time and prepared. If you must miss a class, please notify me as soon as possible. If you miss a class, you are responsible to make up for any missed material by working with classmates and/or attending office hours. Three or more absences will result in a failing grade. Three arrivals later than 15 minutes is equivalent to an absence.  and are responsible for making up any missed assignments by the next class. See also: [RISD’s Attendance Policy](https://policies.risd.edu/academic/class-attendance/)
+You are expected attend every class, on time and prepared. If you must miss a class, please notify me as soon as possible. You are responsible to make up for any missed material by working with classmates and/or attending office hours before the next class. Three or more absences will result in a failing grade. Three arrivals later than 15 minutes is equivalent to an absence. See also: [RISD’s Attendance Policy](https://policies.risd.edu/academic/class-attendance/)
 
 ### Grading
 * 70% Execution of projects and supporting exercises
-* 20% Participation in critiques, class discussions, readings, and shares
-* 10% Student presentation
+* 25% Participation in critiques, class discussions, readings, and shares
+* 5% Student presentation
 
 ### Evaluation Critera
 <div id="eval" markdown="1">

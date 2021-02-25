@@ -6,18 +6,14 @@
     <description>Recent content in Schedule on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://motsuka.com/webtype-spring2021/schedule/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://motsuka.com/webtype-spring2021/schedule/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 1: Hello World</title>
+      <title>Hello World</title>
       <link>http://motsuka.com/webtype-spring2021/schedule/week1/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://motsuka.com/webtype-spring2021/schedule/week1/</guid>
-      <description> Introductions / Overview of syllabus, class website, resources Lecture: Intro to the Web     Tutorial Project Reading Exercises     HTML Basics Project 1 Laurel Schwulst: My website is a shifting house next to a river of knowledge. What could yours be? Shay Howe: HTML &amp;amp; CSS / Codecademy Learn HTML / Codecademy Learn CSS    </description>
+      <description> Introductions Overview of class website, syllabus, resources Setups: Slack, Sublime Text, Github Pages Lecture: Intro to the Web Project 1 Kickoff Sign up for presentations  </description>
     </item>
     
   </channel>

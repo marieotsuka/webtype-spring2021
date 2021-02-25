@@ -1,6 +1,5 @@
 ---
-title: "Web Help"
-date: 2020-02-10
+title: "Web Resources"
 ---
 
 Below are links to some resources for coding.
@@ -10,6 +9,7 @@ Below are links to some resources for coding.
 - [Devdocs](https://devdocs.io/)
 
 ### Guides
+- [Publish Something Online](https://publishsomething.online/)
 - What is a [URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)?
 - [Folder Poetry](https://github.com/melaniehoff/folderpoetry)
 - [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
@@ -29,7 +29,7 @@ Below are links to some resources for coding.
 
 ## CSS
 - CSS [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
-- [Shay Howe's Guides](https://learn.shayhowe.com/)
+- [Shay Howe’s Guides](https://learn.shayhowe.com/)
 - [CSS Basics](https://thecssworkshop.com/css-basics)
 - [Codecademy](https://www.codecademy.com/)
 - A guide to [centering things](https://css-tricks.com/centering-css-complete-guide/)

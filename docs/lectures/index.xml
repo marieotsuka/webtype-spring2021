@@ -6,110 +6,24 @@
     <description>Recent content in Lectures on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://motsuka.com/webtype-spring2021/lectures/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Content Management Systems</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/09-cms/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/09-cms/</guid>
-      <description>aesthetics and governance</description>
-    </item>
-    
-    <item>
-      <title>jQuery and JSON</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/08-jquery/</link>
-      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/08-jquery/</guid>
-      <description>Objects in JavaScript</description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/07-javascript/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/07-javascript/</guid>
-      <description>Writing instructions</description>
-    </item>
-    
-    <item>
-      <title>Letterforms over time</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/06-digital-type/</link>
-      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/06-digital-type/</guid>
-      <description>How we came to variable fonts</description>
-    </item>
-    
-    <item>
-      <title>Change over time</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/05-variation/</link>
-      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/05-variation/</guid>
-      <description>CSS transitions and animations</description>
-    </item>
-    
-    <item>
-      <title>Type Design Basics</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/04-typedesign/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/04-typedesign/</guid>
-      <description>Introduction to Terminology and Glyphs</description>
-    </item>
-    
-    <item>
-      <title>Layouts and Structure</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/03-layouts/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/03-layouts/</guid>
-      <description>Positioning, layouts, and responsive design</description>
-    </item>
-    
-    <item>
-      <title>Responsive Design</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/03-responsive/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/03-responsive/</guid>
-      <description>A flexible typographic system</description>
-    </item>
-    
-    <item>
-      <title>CSS Basics</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/02-css/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/lectures/02-css/</guid>
-      <description>Basic syntax, inheritance, the cascade, and selectors</description>
-    </item>
-    
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://motsuka.com/webtype-spring2021/lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML</title>
       <link>http://motsuka.com/webtype-spring2021/lectures/01-html/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://motsuka.com/webtype-spring2021/lectures/01-html/</guid>
       <description>Semantic markup</description>
     </item>
     
     <item>
-      <title>Web Type: Getting Started</title>
+      <title>Web Type: An Introductioon</title>
       <link>http://motsuka.com/webtype-spring2021/lectures/00-webtype/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>http://motsuka.com/webtype-spring2021/lectures/00-webtype/</guid>
-      <description>This course is purposely named with shortened, less precise versions the words “web” and “type” to broaden our perspective on our explorations.
-Web could refer to websites, but also to the web infrastructure, to the technology and culture of the world wide web; the protocols that compose the fabric of our internet; the act of weaving a web.
-Type could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; to type, the act of typing, or writing, or coding.</description>
+      <description>“[Artists] have to start understanding the anatomy of machines, the language of machines, their nature, and to re-route them into functioning in irregular ways to create works of art with the machines themselves, using their own means.” — Bruno Munari: 1938 Manifesto del Macchinismo
+The Web Web infrastructure Tim Berners-Lee, a scientist at CERN, launched The World Wide Web Project in 1989. The project was initially created to streamline distribution of information among scientists around the world.</description>
     </item>
     
   </channel>

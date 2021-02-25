@@ -1,6 +1,5 @@
 ---
 title: "Common Errors"
-date: 2020-02-10
 ---
 
 Common errors to watch out for when troubleshooting:

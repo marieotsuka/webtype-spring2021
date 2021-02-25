@@ -1,5 +1,5 @@
 ---
-title: "Web Type: Getting Started"
+title: "Web Type: An Introductioon"
 date: 2020-02-13
 reference:
  - title: "The World Wide Web Project"
@@ -10,7 +10,6 @@ reference:
    link: "https://www.submarinecablemap.com/"
  - title: "Trevor Paglen: Undersea Cables"
    link: "https://www.tba21.org/journals/article/trevorpaglen"
-
  - title: "Net Art Anthology"
    link: "https://anthology.rhizome.org/"
  - title: "Olia Lialina: My Boyfriend Came Back From the War"
@@ -24,49 +23,38 @@ reference:
 ---
 
 
-This course is purposely named with shortened, less precise versions the words “web” and “type” to broaden our perspective on our explorations.
-
-*Web* could refer to websites, but also to the web infrastructure, to the technology and culture of the world wide web; the protocols that compose the fabric of our internet; the act of weaving a web.
-
-*Type* could refer to typography — the arrangement of letterforms — but also typefaces themselves, the quality of letterforms; to type, the act of typing, or writing, or coding.
-
-Both are fundamental for communication: one a medium for its distribution, the other its foundational visual form. As designers, it is essential that we can critically create work that thrives at their intersection.
-
-And also maybe: 🦆 🐸 🐧🦎🦢
-
-- This website is a [work-in-progress]({{< ref "/colophon.md" >}})
-- The [Demos repository](https://github.com/risd-web/webtype-demo) will contain the code used in in-class demos
-
-### Github
-[GitHub](https://github.com/) is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects. 
-
-* A [GitHub](https://github.com/) account and make a repository for this class.
-	- This will become part of the url for where upload your projects
-	- Avoid spaces in the repository name
-* Review Git Version control or download [GitHub Desktop Mac client](https://desktop.github.com/)
-
-Github Desktop is a program that helps you keep track of changes in your code and upload them to your repository.
-- See more on [Github Guides](https://guides.github.com/)
-
-### Text Editor
-* Download [Sublime Text](https://www.sublimetext.com/3) / [Atom](https://atom.io/) / [Visual Studio Code](https://code.visualstudio.com/)
-
-
-### Tutorials
-<!-- * Get the free trial [Glyphs](https://glyphsapp.com/buy) (but don’t start it yet.) If you'd like to purchase it, checkout [student discounts](https://glyphsapp.com/buy/discount). -->
-* Free account at [Codecademy](https://www.codecademy.com/)
-
-### Browser
-* Assignments will be evaluated in [Chrome](https://www.google.com/chrome/) for its Inspector tools
-
-### Slack
-* [Join Slack](https://join.slack.com/t/webtypeworkspace/shared_invite/enQtOTUxNDc5NzU5MDc5LWE0NzJkZWFmYTNjYTY3YjVmNDE5ZjU0NWU2MjFkNGI3OWE0NzM3YTUyZGM3MjZhMzdiNDA2MDkzZjNmZTcyZDk)
+“[Artists] have to start understanding the anatomy of machines, the language of machines, their nature, and to re-route them into functioning in irregular ways to create works of art with the machines themselves, using their own means.”
+ — Bruno Munari: 1938 Manifesto del Macchinismo
 
 
 # The Web
 ## Web infrastructure
 
 Tim Berners-Lee, a scientist at CERN, launched [The World Wide Web Project](http://info.cern.ch/hypertext/WWW/TheProject.html) in 1989. The project was initially created to streamline distribution of information among scientists around the world. Berners-Lee devised the system of hypertext (or links.) This first website was dedicated to host information about the World Wide Web itself.
+
+The web works through the hypertext protoccol.
+Ted Nelson proposed another alternative model for the internet namec Xanadu — this model fundamentally sdiffered from the current model by using two-way linking. See: [The Curse of Xanadu](https://www.wired.com/1995/06/xanadu/)
+
+> The computer world is not just technicality and razzle-dazzle. It is a continual war over software politics and paradigms. 
+
+"With ideas which are still radical,
+we fight on."
+
+
+Ted Nelson, Xanadu
+<iframe class="tube" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/En_2T7KH6RA&ab"
+  frameborder="0"></iframe>
+<!-- 
+https://www.youtube.com/watch?v=En_2T7KH6RA&ab_channel=photonhunter -->
+
+
+Muriel Cooper, Information Landscapes, 1994
+
+https://www.youtube.com/watch?v=Qn9zCrIJzLs&ab_channel=inventinginteractive
+
+Read more on a overview by [Nolwenn Maudet](http://www.revue-backoffice.com/en/issues/01-making-do-making-with/nolwenn-maudet-muriel-cooper-information-landscapes).
+
 
 The internet is a network of connected computers with the primary purpose to share information. It works as bunch of conversations between clients and servers.
 - **Web Client:** Browser (Google Chrome, Firefox, Safari, etc..)

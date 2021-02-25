@@ -1,7 +1,7 @@
 ---
-title: "Project 1: A Metaphor"
+title: "Project 1: Subject"
 date: "2020-02-13"
-
+project: 1
 ---
 
 

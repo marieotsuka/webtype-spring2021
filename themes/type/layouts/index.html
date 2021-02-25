@@ -1,29 +1,65 @@
 {{ define "main" }}
-	<main>
+	<main class="index">
 		<article>
-			{{.Content}}
-		
-			{{$posts := ($.Site.GetPage "section" "schedule").Pages.ByPublishDate.Reverse}}
-			{{ range first 1 $posts }}
-			<div class="week">{{.Content}}</div>
-			{{ end }}
+			<section>
+				{{.Content}}
+			
+				{{$posts := ($.Site.GetPage "section" "schedule").Pages.ByPublishDate.Reverse}}
+				{{ range $index, $element := first 1 $posts }}
+				
 
-			<h2>Students</h2>
-			<ul class="students">
-				<li>Corinne Izabel Ang</li>
-				<li>Amy Choi</li>
-				<li>Jingyu Feng</li>
-				<li>Daniel Goldberg</li>
-				<li>Mankun Guo</li>
-				<li>Natalya Ho</li>
-				<li>Nayeon Kim</li>
-				<li>William Mianecki</li>
-				<li>Clear Shen</li>
-				<li>Asta Thrastardottir</li>
-				<li>Jordan Weed</li>
-				<li>Qianxue Zhao</li>
-			</ul>
-
+				<h1>{{ .Title }}</h1>
+				<time>Week {{ add 1 $index }}: {{ .Date.Format "January 2, 2006" }}</time>
+				<div class="week content">
+					<div class="assignments">
+						<div class="row">
+							<h4>Class</h4>
+							<div class="item">{{.Content}}</div>
+						</div>
+						<div class="row">
+							<h4>Project</h4>
+							<div class="item">{{ .Params.project | markdownify }}</div>
+						</div>
+						<div class="row">
+							<h4>Exercise</h4>
+							<div class="item">{{ .Params.exercise | markdownify }}</div>
+						</div>
+						<div class="row">
+							<h4>Reading</h4>
+							<div class="item">{{ .Params.reading | markdownify }}</div>
+						</div>
+						<div class="row">
+							<h4>Tutorials</h4>
+							<div class="item">{{ .Params.tutorials | markdownify }}</div>
+						</div>
+					</div>
+					
+				</div>
+				{{ end }}
+			</section>
+			<section>
+				<ul class="links">
+					<li><a href="https://risd.zoom.us/j/92822950097" target="_blank">Class Zoom</a></li>
+					<li><a href="https://github.com/risd-web/webtype-demos" target="_blank">Demos Repository</a></li>
+					<li><a href="https://risd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=0#folderID=%224db47cb6-f06a-46b1-9d81-acda00f2f8c3%22&view=0" target="_blank">Lecture Recordings</a></li>
+					<li><a href="https://docs.google.com/spreadsheets/d/1iLWtgjB2GGkPRLjlcwTficTPRG5eHi7RBHwl1bIZipE/edit#gid=0" target="_blank">Office Hours</a></li>
+				</ul>
+	
+				<ul class="links">
+					<li>Corinne Izabel Ang</li>
+					<li>Amy Choi</li>
+					<li>Jingyu Feng</li>
+					<li>Daniel Goldberg</li>
+					<li>Mankun Guo</li>
+					<li>Natalya Ho</li>
+					<li>Nayeon Kim</li>
+					<li>William Mianecki</li>
+					<li>Clear Shen</li>
+					<li>Asta Thrastardottir</li>
+					<li>Jordan Weed</li>
+					<li>Qianxue Zhao</li>
+				</ul>
+			</section>
 		</article>
 	</main>
 

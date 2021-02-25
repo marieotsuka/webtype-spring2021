@@ -1,6 +1,7 @@
 ---
 title: "Layouts and Structure"
 date: 2020-02-19
+draft: true
 summary: "Positioning, layouts, and responsive design"
 reference:
  - title: "Dedesign The Web"

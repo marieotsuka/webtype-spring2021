@@ -1,24 +1,32 @@
 $(function(){
+	console.log('script loaded');
+	
+	$("body").on("click", function(event){
+		let target = $(event.target);
 
-	// $("main").on("click", function(event){
+		if( !target.is('a')){
+			// if not clicking on link
 
-	// 	if ($(event.target).hasClass('element')){
-	// 		$(event.target).remove();
-	// 	}else{
-	// 		var element = event.target.tagName;
-	// 		var x = event.pageX;
-	// 		var y = event.pageY;
+			if (target.hasClass('element')){
+				target.remove();
+			}else{
+				var element = event.target.tagName;
+				var x = event.pageX;
+				var y = event.pageY;
 
-	// 		// console.log(element);
-	// 		var sticker = '<div class="element" id="added">'+ element +'</div>';
-	// 		$('main').append(sticker);
-			
-	// 		$('#added').css({
-	// 		  	 top:y-20, 
-	// 		  	 left:x-20,
-	// 		 }).removeAttr('id');
-	// 	}
-	// });
+				// console.log(element);
+				var sticker = '<div class="element" id="added">'+ element +'</div>';
+				$('main').append(sticker);
+				
+				$('#added').css({
+				  	 top:y-20, 
+				  	 left:x-20,
+				 }).removeAttr('id');
+			}
+
+		}
+		
+	});
 
 	$("#dark-mode").click(function(){
 		$('body').toggleClass('dark');

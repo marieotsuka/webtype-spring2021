@@ -1,14 +1,11 @@
 ---
 title: "HTML"
-date: 2020-02-13
+date: 2021-02-25
 summary: "Semantic markup"
 reference:
  - title: "Embroidery Trouble Shooting Page"
    link: "https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm"
 ---
-
-[Demo files](https://github.com/risd-web/webtype-demos/)
-
 
 ## HyperText Markup Language
 
@@ -42,9 +39,10 @@ Tags are used to mark-up content in HTML. It is always between two angled bracke
 
 All content is surrounded  between opening and closing tags. A closing tag is indicated with a forward slash `/`. Most forms of markup require both. ([Here’s](https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm) what happens when you don’t close tags.)
 
-`<p>lorem ipsum ...</p>`
-
-`<h1>headline</h1>`
+```HTML
+<h1>headline</h1>
+<p>lorem ipsum ...</p>
+```
 
 ### Anatomy
 - opening tag `<h1>`
@@ -72,7 +70,7 @@ You can see the HTML and structure of any webpage by opening your Inspector tool
 An element nested within another is called a child element. Conversely, an element containing another is called its parent. A child element must be closed before its parent element. 
 
 This is incorrect syntax:
-```
+```HTML
 <h2>French Bakery</h2>
 <p>
 	All goods must be eaten <em>today.
@@ -86,7 +84,7 @@ This is incorrect syntax:
 ```
 
 These are examples of incorrect syntax:
-```
+```HTML
 <h2>French Bakery</h2>
 <p>
 	All goods must be eaten <em>today</em>.
@@ -101,6 +99,37 @@ These are examples of incorrect syntax:
 All HTML elements flow from the top to the bottom.
 Any whitespace (tabs or spaces) within the HTML file will have no effect on the rendered markdown; rather, it is a tool for writing readable code.
 Nested elements should be kept tabbed for readability: it will help you see where the opening and closing tags of elements.
+
+## Elements and Attributes
+
+Attributes provide additional information about the contents of an element appear with the opening tag of an element. They consist of an attribute name and a value. Each element type has appropriate attributes. 
+
+```HTML
+<a href="index.html">home</a>
+```
+
+### Anatomy
+- opening tag `<a` (in this case, the anchor tag)
+- attribute name `href` (the location / path to where the link takes you)
+- equals sign `=`
+- attribute value `"index.html"` 
+   - values must be wrapped in quotation marks
+- content `home` (the text that the user clicks on)
+
+## Links
+
+`<a href="https://www.google.com/">Google</a>`
+
+Use it to link to:
+
+- **Local / Relative links**: Other pages in your site
+`<a href="about.html">learn more</a>`
+- **Anchor links**: Other locations within the same webpage 
+`<a href="#up">go back up</a>`
+- **Absolute links**: Other webpages outside your site 
+`<a href="https://www.google.com/">search stuff</a>`
+- **Download links**: Any non-html file for users to download
+`<a href="docs/resume.pdf">view a PDF</a>`
 
 
 ## Inline vs. Block elements
@@ -136,39 +165,9 @@ A **block element** always appears on a new line; by default,  it’s as wide as
 
 These are default `display` CSS properties for each element.
 
-We often use the generic `<span>` and `<div>` elements with [CSS classes]({{<ref "02-css.md#classes-and-ids">}}) for formatting.
+We often use the generic `<span>` and `<div>` elements with CSS classes(to be covered next week) for formatting.
 - to select in-line elements, such as text, we wrap them in a `span`
 - to group several elements together, we wrap them in a `div`
-
-
-## Elements and Attributes
-
-Attributes provide additional information about the contents of an element appear with the opening tag of an element. They consist of an attribute name and a value. Each element type has appropriate attributes. 
-
-`<a href="index.html">home</a>`
-
-### Anatomy
-- opening tag `<a` (in this case, the anchor tag)
-- attribute name `href` (the location / path to where the link takes you)
-- equals sign `=`
-- attribute value `"index.html"` 
-   - values must be wrapped in quotation marks
-- content `home` (the text that the user clicks on)
-
-## Links
-
-`<a href="https://www.google.com/">Google</a>`
-
-Use it to link to:
-
-- **Local / Relative links**: Other pages in your site
-`<a href="about.html">learn more</a>`
-- **Anchor links**: Other locations within the same webpage 
-`<a href="#up">go back up</a>`
-- **Absolute links**: Other webpages outside your site 
-`<a href="https://www.google.com/">search stuff</a>`
-- **Download links**: Any non-html file for users to download
-`<a href="docs/resume.pdf">view a PDF</a>`
 
 
 ##  A list of common HTML elements

@@ -1,6 +1,7 @@
 ---
 title: "JavaScript"
 date: 2020-03-10
+draft: true
 summary: "Writing instructions"
 reference:
   - title: "SolvingSol"

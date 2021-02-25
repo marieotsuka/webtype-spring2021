@@ -1,6 +1,7 @@
 ---
 title: "The 5Es Experience Framework"
 date: 2020-02-26
+draft: true
 reference: 
  - title: "The 5Es Experience Framework"
    link: "https://medium.theuxblog.com/the-5e-experience-design-model-7852324d46c"

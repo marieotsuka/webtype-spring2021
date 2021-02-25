@@ -5,7 +5,7 @@ weight: 2
 layout: accordion
 ---
 
-Details of in-class activities and weekly assignments.
+Archive in-class activities and weekly assignments.
 
 
 

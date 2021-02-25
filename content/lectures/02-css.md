@@ -1,6 +1,7 @@
 ---
 title: "CSS Basics"
 date: 2020-02-13
+draft: true
 summary: "Basic syntax, inheritance, the cascade, and selectors"
 reference: 
  - title: "The Cascade"
@@ -167,7 +168,7 @@ HTML
 	<li>List item 2</li>
 	<li>List item 3</li>
 </ul>
-```
+```html
 
 **Ids** work similarly to classes, but only one element may be given a particular id. You define id names by preceding them with a hash symbol (`#`) 
 

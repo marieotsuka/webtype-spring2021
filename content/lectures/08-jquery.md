@@ -1,6 +1,7 @@
 ---
 title: "jQuery and JSON"
 date: 2020-03-11
+draft: true
 summary: "Objects in JavaScript"
 reference:
   - title: "Data.gov APIs"

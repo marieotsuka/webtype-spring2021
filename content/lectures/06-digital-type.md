@@ -1,6 +1,7 @@
 ---
 title: "Letterforms over time"
 date: 2020-03-05
+draft: true
 summary: "How we came to variable fonts"
 reference:
  - title: "Hanzi"

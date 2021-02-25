@@ -5,10 +5,6 @@
     <link>http://motsuka.com/webtype-spring2021/tags/</link>
     <description>Recent content in Tags on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://motsuka.com/webtype-spring2021/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://motsuka.com/webtype-spring2021/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

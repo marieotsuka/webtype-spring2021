@@ -1,6 +1,7 @@
 ---
 title: "Change over time"
 date: 2020-03-04
+draft: true
 summary: "CSS transitions and animations"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Type Design Basics"
 date: 2020-02-27
+draft: true
 summary: "Introduction to Terminology and Glyphs"
 ---
 

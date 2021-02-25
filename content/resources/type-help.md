@@ -1,6 +1,5 @@
 ---
-title: "Type Help"
-date: 2020-02-10
+title: "Type Resources"
 ---
 
 Below are links to some resources for typefaces and typography.

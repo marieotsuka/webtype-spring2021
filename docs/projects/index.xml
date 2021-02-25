@@ -6,10 +6,16 @@
     <description>Recent content in Projects on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://motsuka.com/webtype-spring2021/projects/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://motsuka.com/webtype-spring2021/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>http://motsuka.com/webtype-spring2021/projects/0-getting-started/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://motsuka.com/webtype-spring2021/projects/0-getting-started/</guid>
+      <description>Slack  Join Slack for class communications  Github GitHub is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects.
+ A GitHub account and make a repository for this class.  This will become part of the url for where upload your projects Avoid spaces in the repository name   Review Git Version control or download GitHub Desktop Mac client  Github Desktop is a program that helps you keep track of changes in your code and upload them to your repository.</description>
+    </item>
     
     <item>
       <title>Index</title>
@@ -42,7 +48,7 @@ General requirements:
     </item>
     
     <item>
-      <title>Project 1: A Metaphor</title>
+      <title>Project 1: Subject</title>
       <link>http://motsuka.com/webtype-spring2021/projects/project1/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       

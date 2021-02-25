@@ -1,23 +1,47 @@
 {{ define "main" }}
 	<main>
-		{{ if or .Title .Content }}
-			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-			{{ with .Content }}<p>{{ . }}</p>{{ end }}
-		{{ end }}
-		<ul class="index-list">
-		{{ range .Paginator.Pages }}
-			{{ if ne .Draft true}}
-			<li class="accordion">
-				<dt class="content-dropdown">
-					<div class="week-title">{{ .Title }}</div>
-					<time>{{ .Date.Format "January 2, 2006" }}</time>
-				</dt>
-				<dd class="content">
-					{{ .Content  }}
-				</dd>
-			</li>
+		<article>
+			{{ if or .Title .Content }}
+				{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+				{{ with .Content }}<p>{{ . }}</p>{{ end }}
 			{{ end }}
-		{{ end }}
-		</ul>
+			<ul class="index-list">
+			{{ range .Paginator.Pages }}
+				{{ if ne .Draft true}}
+				<li class="accordion">
+					<dt class="content-dropdown">
+						<div class="week-title">{{ .Title }}</div>
+						<time>{{ .Date.Format "January 2, 2006" }}</time>
+					</dt>
+					<dd class="content week">
+						<div class="assignments">
+							<div class="row">
+								<h4>Class</h4>
+								<div class="item">{{.Content}}</div>
+							</div>
+							<div class="row">
+								<h4>Project</h4>
+								<div class="item">{{ .Params.project | markdownify }}</div>
+							</div>
+							<div class="row">
+								<h4>Exercise</h4>
+								<div class="item">{{ .Params.exercise | markdownify }}</div>
+							</div>
+							<div class="row">
+								<h4>Reading</h4>
+								<div class="item">{{ .Params.reading | markdownify }}</div>
+							</div>
+							<div class="row">
+								<h4>Tutorials</h4>
+								<div class="item">{{ .Params.tutorials | markdownify }}</div>
+							</div>
+						</div>
+
+					</dd>
+				</li>
+				{{ end }}
+			{{ end }}
+			</ul>
+		</article>
 	</main>
 {{ end }}

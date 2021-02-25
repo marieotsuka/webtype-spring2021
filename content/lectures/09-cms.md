@@ -1,6 +1,7 @@
 ---
 title: "Content Management Systems"
 date: 2020-04-16
+draft: true
 summary: "aesthetics and governance"
 reference:
   - title: "Yale School of Art"
