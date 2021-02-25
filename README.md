@@ -1,5 +1,2 @@
-## Class Site
-https://risd-web.github.io/webtype-spring2020/
-
-## Student Work
-https://risd-web.github.io/webtype-spring2020/students/
+## Class Site for Web Type
+https://motsuka.com/webtype-spring2021/
