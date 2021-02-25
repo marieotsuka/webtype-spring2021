@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Type</title>
-    <link>http://motsuka.com/webtype-spring2021/</link>
+    <link>https://motsuka.com/webtype-spring2021/</link>
     <description>Recent content on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://motsuka.com/webtype-spring2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://motsuka.com/webtype-spring2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syllabus</title>
-      <link>http://motsuka.com/webtype-spring2021/syllabus/</link>
+      <link>https://motsuka.com/webtype-spring2021/syllabus/</link>
       <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/syllabus/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/syllabus/</guid>
       <description>Course Information  WEB TYPE (RISD GRAPH-2313-01), Spring 2021 3 credit elective Marie Otsuka (motsuka@risd.edu) Class Meetings on Zoom: Thursdays, 1:10pm–6:10pm EST Office Hours: Fridays 1:00–2:00pm EST and by appointment  Course Description This course explores typography within the browser, considering the web as a medium. We will design an develop typography that activates the capacities and conditions of websites. Projects will respond to our local browser conditions and different device environments, then expand to working with the remote network as source material.</description>
     </item>
     
     <item>
       <title>Various types of sites</title>
-      <link>http://motsuka.com/webtype-spring2021/resources/links/</link>
+      <link>https://motsuka.com/webtype-spring2021/resources/links/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/resources/links/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/resources/links/</guid>
       <description>Below are links to webtype-type sites. The purpose here is to document a variety of web/type use rather than to showcase exemplary samples of content or aesthetics.
 Reading collections  The Avery Review HTML Output Critical Atlas of the Internet Justin McGuirk Poetic Computation Untold Stories Wendy36  Typographic web designs  Illuminating Radioactivity XXXI XXXI Intro to Coding Workshop Nathan Tokyo Z-Bau Typeforce Wattis Institute Shiraz Abdullahi Gallab: Headgear Synoptic Office: Chinese Type Archive Russian Type journal Dowse Museum Stedlijk Strelka Alumni Ball Het Nieuwe Institut PACKET Index Art Book Fair Kurimanzutto  Sites for Typefaces  Fem Type Untitled Sans Hypertext Google Fonts and Chinese Google Fonts and Korean Temporary State Alfatype Gimlet IBM Plex Recursive  Type as Form  Sweethearts Elswewhere Data Patterns Monomono studio YES YES YES Moonsick Gang  Interactive Text  place a stone clickclickclick 2013 Lisbon Architecture Triennale  Generators  Hello from Here Space Type Generator Letters from Sweden: Funkis ABC Metaflop Universal Sans  Type and Audio  Secousse Radio Laurel Halo Truth and Quantity Goertek Phase  Online Publications  Rhizome Triple Canopy Triple Canopy: The Binder and the Server E-flux The New Inquiry Rachel Rosenfelt: The New Inquiry The Intercept The Creative Independent Dan Michaelson / Jack Balkin: Sometimes it looks like a duck, sometimes it looks like a rabbit  Web Design Studios  Linked by Air Rumors Studio Studio Moniker Project Projects  General Website Collections  Hoverstates Hallo Internet Brutalist Websites Readymag  Classics  Rafael Rozendaal Jodi.</description>
     </item>
     
     <item>
       <title>Colophon</title>
-      <link>http://motsuka.com/webtype-spring2021/colophon/</link>
+      <link>https://motsuka.com/webtype-spring2021/colophon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/colophon/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/colophon/</guid>
       <description>This is the class website for Web Type at RISD, Spring 2021 with Marie Otsuka.
 The material and site structure adapts interactive and web-related curriculums developed in collobaration by Chris Hamamoto, running in tandem with CCA’s Interactive 1. It is influenced by the work of Laurel Schwulst, Minkyoung Kim, and previous iterations RISD’s GD for the Web, Wintersession Web Design, and Web Progamming classes.
 The typeface is an unreleased variable typeface (name to be determined) designed with the spirit of the class: creative coding.</description>
@@ -39,97 +39,76 @@ The typeface is an unreleased variable typeface (name to be determined) designed
     
     <item>
       <title>Getting Started</title>
-      <link>http://motsuka.com/webtype-spring2021/projects/0-getting-started/</link>
+      <link>https://motsuka.com/webtype-spring2021/projects/0-getting-started/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/projects/0-getting-started/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/projects/0-getting-started/</guid>
       <description>Slack  Join Slack for class communications  Github GitHub is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects.
  A GitHub account and make a repository for this class.  This will become part of the url for where upload your projects Avoid spaces in the repository name   Review Git Version control or download GitHub Desktop Mac client  Github Desktop is a program that helps you keep track of changes in your code and upload them to your repository.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://motsuka.com/webtype-spring2021/schedule/week1/</link>
+      <link>https://motsuka.com/webtype-spring2021/schedule/week1/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/schedule/week1/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/schedule/week1/</guid>
       <description> Introductions Overview of class website, syllabus, resources Setups: Slack, Sublime Text, Github Pages Lecture: Intro to the Web Project 1 Kickoff Sign up for presentations  </description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/01-html/</link>
+      <link>https://motsuka.com/webtype-spring2021/lectures/01-html/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/lectures/01-html/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/lectures/01-html/</guid>
       <description>Semantic markup</description>
     </item>
     
     <item>
       <title>Index</title>
-      <link>http://motsuka.com/webtype-spring2021/projects/collection/</link>
+      <link>https://motsuka.com/webtype-spring2021/projects/collection/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/projects/collection/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/projects/collection/</guid>
       <description>Documentation Develop a single webpage that provides a link to each project you’ve completed this semester. This index page will serve as a homepage for this class. You might also include exercises or alternate drafts that you experimented before developing the final version of your website. As you organize / reorganize your Github repository, make sure to double check that all links, including assets such as fonts and images, are properly linked.</description>
     </item>
     
     <item>
-      <title>Project 4: Editorial</title>
-      <link>http://motsuka.com/webtype-spring2021/projects/project4/</link>
-      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/projects/project4/</guid>
-      <description>The next phase is our final project — the goal is to engage in editorial design on the web, developing a collection of texts as as a publication. Below are several directions on how you might go about doing this.
-General requirements:
- Typeset at least 12 longform articles Design at least 2 types of article layouts, in addition to the homepage Consider what kind of viewing modes are available for Consider the relationship between images &amp;amp; words Experiment with how we navigate from one article to another Develop a robust typographic identity system, paying careful attention to typographic hierarchy and refinements  a) Web Publication / Anthology Consider a current area of research.</description>
-    </item>
-    
-    <item>
-      <title>Project 2 &amp; 3: Typeface as a Medium</title>
-      <link>http://motsuka.com/webtype-spring2021/projects/project2-3/</link>
-      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://motsuka.com/webtype-spring2021/projects/project2-3/</guid>
-      <description>“But in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.” – Keller Eastering
- Reading  Keller Easterling: Medium Design (Excerpt) Typotheque: Typeface as Programme  Project 2 Create a variable font, considering the axes of variation as a medium. With this format, you are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.</description>
-    </item>
-    
-    <item>
       <title>Project 1: Subject</title>
-      <link>http://motsuka.com/webtype-spring2021/projects/project1/</link>
+      <link>https://motsuka.com/webtype-spring2021/projects/project1/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/projects/project1/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/projects/project1/</guid>
       <description>“My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.</description>
     </item>
     
     <item>
       <title>Web Type: An Introductioon</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/00-webtype/</link>
+      <link>https://motsuka.com/webtype-spring2021/lectures/00-webtype/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/lectures/00-webtype/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/lectures/00-webtype/</guid>
       <description>“[Artists] have to start understanding the anatomy of machines, the language of machines, their nature, and to re-route them into functioning in irregular ways to create works of art with the machines themselves, using their own means.” — Bruno Munari: 1938 Manifesto del Macchinismo
 The Web Web infrastructure Tim Berners-Lee, a scientist at CERN, launched The World Wide Web Project in 1989. The project was initially created to streamline distribution of information among scientists around the world.</description>
     </item>
     
     <item>
       <title>Common Errors</title>
-      <link>http://motsuka.com/webtype-spring2021/resources/common-errors/</link>
+      <link>https://motsuka.com/webtype-spring2021/resources/common-errors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/resources/common-errors/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/resources/common-errors/</guid>
       <description>Common errors to watch out for when troubleshooting:
 HTML  Are your HTML elements wrapped in open and close tags? Are your HTML elements properly nested? Do your attribute values have quotation marks around them? Are your directory paths correct? Double check your link syntax.  CSS  Do you have opening and closing brackets? Does your property and value pairs have colons in between them? Do you have a semicolon at the end of each declaration?</description>
     </item>
     
     <item>
       <title>HTML Terms</title>
-      <link>http://motsuka.com/webtype-spring2021/resources/html-terms/</link>
+      <link>https://motsuka.com/webtype-spring2021/resources/html-terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/resources/html-terms/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/resources/html-terms/</guid>
       <description>Tag: a tag is used for creating an element, which consists of the name of an HTML element in angle brackets. (i.e. &amp;lt;p&amp;gt; for paragraph.)
   Element: An element is a part of a webpage. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag. (i.e. &amp;lt;h1 class=&amp;quot;news&amp;quot;&amp;gt; Heading &amp;lt;/h1&amp;gt;)
   Attribute: An attribute extends a tag, changing its behavior or providing metadata.</description>
@@ -137,20 +116,20 @@ HTML  Are your HTML elements wrapped in open and close tags? Are your HTML eleme
     
     <item>
       <title>Type Resources</title>
-      <link>http://motsuka.com/webtype-spring2021/resources/type-help/</link>
+      <link>https://motsuka.com/webtype-spring2021/resources/type-help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/resources/type-help/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/resources/type-help/</guid>
       <description>Below are links to some resources for typefaces and typography.
 Webfont distributors  Any foundry website Adobe Fonts Google Web Fonts  Should you self-host Google Fonts?    Open Source  Open Foundry Future Fonts Use &amp;amp; Modify Libre Fonts by Womxn Velvetyne Collletttivo OSP Kitchen League of Movable Type Font Squirrel and webfont generator  Typography Reference  Matthew Butterick’s Practical Typography Typewolf Ellen Lupton&amp;rsquo;s Thinking with Type  Foundry Websites  Occupant Fonts Commercial Type Showcase Colophon Foundry Klim Type Grilli Type Ohno Type Sharp Type DJR Vocal Type Frere-Jones Type  Type technology tools and reference  Using @font-face A Variable Fonts Primer typetura.</description>
     </item>
     
     <item>
       <title>Web Resources</title>
-      <link>http://motsuka.com/webtype-spring2021/resources/web-help/</link>
+      <link>https://motsuka.com/webtype-spring2021/resources/web-help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/resources/web-help/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/resources/web-help/</guid>
       <description>Below are links to some resources for coding.
 Documentation  Mozilla Developer Network Devdocs  Guides  Publish Something Online What is a URL? Folder Poetry Dealing with files What goes in your head Why Coding Style Matters on Smashing Magazine (with useful list of validators) Writing your Best Code: HTML/CSS coding best practices and list of resources Google developer documentation style guide Sublime Text unofficial documentation &amp;amp; keyboard shortcuts  HTML  About Semantic HTML elements Overview of newer HTML tags Mix Blend Mode Nth-Child Paragraph Formatting on the Web Character sets: HTML Entities and Character Codes  CSS  CSS inheritance Shay Howe’s Guides CSS Basics Codecademy A guide to centering things Layout tutorials CSS Tricks Simple Grid Approach Articles on A List Apart: Content-out Layout | The Infinite Grid | Fluid Grids Using Style Tiles  Media Queries &amp;amp; Responsive design  Responsive Web Design Responsive Design Media Queries 7 Habits of Highly Effective Media Queries mediaqueri.</description>
     </item>

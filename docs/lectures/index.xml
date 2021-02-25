@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lectures on Web Type</title>
-    <link>http://motsuka.com/webtype-spring2021/lectures/</link>
+    <link>https://motsuka.com/webtype-spring2021/lectures/</link>
     <description>Recent content in Lectures on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://motsuka.com/webtype-spring2021/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://motsuka.com/webtype-spring2021/lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/01-html/</link>
+      <link>https://motsuka.com/webtype-spring2021/lectures/01-html/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/lectures/01-html/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/lectures/01-html/</guid>
       <description>Semantic markup</description>
     </item>
     
     <item>
       <title>Web Type: An Introductioon</title>
-      <link>http://motsuka.com/webtype-spring2021/lectures/00-webtype/</link>
+      <link>https://motsuka.com/webtype-spring2021/lectures/00-webtype/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://motsuka.com/webtype-spring2021/lectures/00-webtype/</guid>
+      <guid>https://motsuka.com/webtype-spring2021/lectures/00-webtype/</guid>
       <description>“[Artists] have to start understanding the anatomy of machines, the language of machines, their nature, and to re-route them into functioning in irregular ways to create works of art with the machines themselves, using their own means.” — Bruno Munari: 1938 Manifesto del Macchinismo
 The Web Web infrastructure Tim Berners-Lee, a scientist at CERN, launched The World Wide Web Project in 1989. The project was initially created to streamline distribution of information among scientists around the world.</description>
     </item>

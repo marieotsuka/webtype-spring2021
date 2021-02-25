@@ -1,3 +1,4 @@
-baseURL = "http://motsuka.com/webtype-spring2021/"
+baseURL = "https://motsuka.com/webtype-spring2021/"
 publishDir = "docs"
 buildDrafts = false
+buildFuture = true
