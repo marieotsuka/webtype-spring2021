@@ -1,11 +1,7 @@
 ---
 title: "JavaScript"
-date: 2020-03-10
-draft: true
+date: 2021-04-08
 summary: "Writing instructions"
-reference:
-  - title: "SolvingSol"
-    link: "https://solvingsol.com/"
 ---
 
 Unlike HTML and CSS, Javascript is a programming language and can perform all sorts of actions. JavaScript is list of instructions to be interpreted and executed by your computer, either by a browser or other JavaScript interpreter (in the command line.) 
@@ -103,7 +99,7 @@ In programming languages, any textual content that is not part of the programmin
 ```JS
 "Hello World";   // works
 'Hi';            // works
-"This';          // won’t work
+"This';         // won’t work
 ```
 
 ### Numbers

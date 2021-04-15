@@ -10,11 +10,12 @@ reference:
 ## HyperText Markup Language
 
 HTML is the language of web pages interpreted by web browsers.
-- HTML = **H**yper**T**ext **M**arkup **L**anguage
+- HTML = *H*yper*T*ext *M*arkup *L*anguage
 - HTML defines web content by organizing text comprised of a series of nested tags
 - HTML can be created with any simple text editor.
 
-- **content, HTML**
+### Layers of Webpages
+- *content, HTML*
 - form, CSS
 - behavior, JavaScript
 
@@ -26,7 +27,7 @@ An `.html` file has 2 forms:
 
 ## HTML Tag
 
-Tags are used to mark-up content in HTML. It is always between two angled brackets.
+**Tags** are used to mark-up content in HTML. It is always between two angled brackets.
 
 `<p>`
 
@@ -37,7 +38,7 @@ Tags are used to mark-up content in HTML. It is always between two angled bracke
 
 ## HTML Element
 
-All content is surrounded  between opening and closing tags. A closing tag is indicated with a forward slash `/`. Most forms of markup require both. ([Here’s](https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm) what happens when you don’t close tags.)
+All content is surrounded  between opening and closing tags. A closing tag is indicated with a forward slash `/`. Most forms of markup require both. ([Here’s](https://web.archive.org/web/20060314044545/http://www.sewingandembroiderywarehouse.com/embtrb.htm) what happens when you don’t close tags.) A set of opening and closing tags form an html **element**. (Some special tags don’t require closing tags.)
 
 ```HTML
 <h1>headline</h1>
@@ -51,9 +52,7 @@ All content is surrounded  between opening and closing tags. A closing tag is in
 
 
 ## Semantic Markup
-Semantic: relating to meaning in language or logic
-
-Semantic markup establishes the hierarchy and structure of information. The latest version of html, html5, introduced several new elements (among other things) to improve how precisely a tag can describe the content it contains.
+Semantic refers to how the elements relates to meaning in language or logic. **Semantic markup** establishes the hierarchy and structure of information. The latest version of html, html5, introduced several new elements (among other things) to improve how precisely a tag can describe the content it contains.
 
 - Read more on how [Semantic Markup is important for Web Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
@@ -67,7 +66,7 @@ You can see the HTML and structure of any webpage by opening your Inspector tool
 - Inspect (⌘–Option–I or ⌘–Shift–C) displays the HTML structure and styles that the browser determined from the source file. You can also hover over elements to see what they correspond to on your screen. ** The inspector is your best tool when developing websites because it bridges the gap between your intentions with your code and how the browser renders it. **
 
 ## Nested structures
-An element nested within another is called a child element. Conversely, an element containing another is called its parent. A child element must be closed before its parent element. 
+An element nested within another is called a **child** element. Conversely, an element containing another is called its **parent**. A child element must be closed before its parent element. 
 
 This is incorrect syntax:
 ```HTML
@@ -102,7 +101,7 @@ Nested elements should be kept tabbed for readability: it will help you see wher
 
 ## Elements and Attributes
 
-Attributes provide additional information about the contents of an element appear with the opening tag of an element. They consist of an attribute name and a value. Each element type has appropriate attributes. 
+Attributes provide additional information about the contents of an element appear with the opening tag of an element. They consist of an **attribute name** and a **attribute value**. Each element type has its own appropriate attributes. 
 
 ```HTML
 <a href="index.html">home</a>
@@ -118,18 +117,31 @@ Attributes provide additional information about the contents of an element appea
 
 ## Links
 
-`<a href="https://www.google.com/">Google</a>`
+<div class="terms" markup = "1">
 
-Use it to link to:
+**Local / Relative links** Other pages in your site
+```HTML
+<a href="about.html">learn more</a>
+```
 
-- **Local / Relative links**: Other pages in your site
-`<a href="about.html">learn more</a>`
-- **Anchor links**: Other locations within the same webpage 
-`<a href="#up">go back up</a>`
-- **Absolute links**: Other webpages outside your site 
-`<a href="https://www.google.com/">search stuff</a>`
-- **Download links**: Any non-html file for users to download
-`<a href="docs/resume.pdf">view a PDF</a>`
+
+**Anchor links** Other locations within the same webpage 
+```HTML
+<a href="#up">go back up</a>
+```
+
+
+**Absolute links** Other webpages outside your site 
+```HTML
+<a href="https//www.google.com/">search stuff</a>
+```
+
+
+**Download links** Any non-html file for users to download
+```HTML
+<a href="docs/resume.pdf">view a PDF</a>
+```
+</div>
 
 
 ## Inline vs. Block elements

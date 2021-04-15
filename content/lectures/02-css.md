@@ -1,7 +1,6 @@
 ---
 title: "CSS Basics"
-date: 2020-02-13
-draft: true
+date: 2021-03-05
 summary: "Basic syntax, inheritance, the cascade, and selectors"
 reference: 
  - title: "The Cascade"
@@ -87,7 +86,7 @@ Selectors apply to *all instances of elements in all webpages that use the same 
 Inheritance refers to how children take on css properties of their parents if they don’t have that property specified. Not all css declarations are inherited.  
 
 
-```
+```CSS
 div {
   color: blue;
   border: 1px solid gray;
@@ -98,10 +97,8 @@ span {
 }
 ```
 
-<div>
-<h1>Cascading <span>Style</span> Sheets</h1>
-</div>
 
+<h1>Cascading <span>Style</span> Sheets</h1>
 
 ## The Cascade 
 
@@ -109,9 +106,9 @@ Cascade refers to the way the stylesheet processes and assigns weights to rules 
 
 ### Origin 
 Stylesheets may come from 3 different sources, processed in the following order
-1. **User agent:** The browser’s default style sheet.
-2. **User:** Such as the user’s browser options.
-3. **Author:** This is the CSS provided by the page (whether inline, embedded or external.) Inline > Internal > External 
+1. **User agent** The browser’s default style sheet.
+2. **User** Such as the user’s browser options.
+3. **Author** This is the CSS provided by the page (whether inline, embedded or external.) Inline > Internal > External 
 
 ### Specificity
 when rules within the same stylesheet conflict, the type of selector determines which has more weight
@@ -128,7 +125,7 @@ By understanding inheritance and the cascade, we can write overarching rules tha
 ### Element selector
 We’ve already seen the type selector that matches element names. 
 
-```
+```CSS
 h2 {
 	font-size: 3em;
 }
@@ -137,7 +134,7 @@ h2 {
 ### Multiple selection
 By separating selectors with commas, you can apply the same rule to multiple HTML elements.
 
-```
+```CSS
 h2, .introduction {
 	font-size: 3em;
 }
@@ -147,8 +144,8 @@ h2, .introduction {
 
 By assigning a **class** to elements (with the `class` attribute) in your HTML, we can apply your rule to just elements that have that particular class. In your stylesheet, all class names are preceded by a period (`.`). 
 
-CSS
-```
+
+```CSS
 .highlight {
 	background: yellow;
 }
@@ -158,8 +155,8 @@ CSS
 }
 ```
 
-HTML
-```
+
+```HTML
 <p id="demo">This is Demo text </p>
 <p class="highlight"> Paragraph text 1 </p>
 <p> Paragraph text 2 </p>
@@ -168,7 +165,8 @@ HTML
 	<li>List item 2</li>
 	<li>List item 3</li>
 </ul>
-```html
+```
+
 
 **Ids** work similarly to classes, but only one element may be given a particular id. You define id names by preceding them with a hash symbol (`#`) 
 
@@ -212,9 +210,9 @@ Some common text-styling properties:
 ## Typefaces
 There are 3 primary sources of fonts from which you can choose:
 
-- **System fonts**: These are fonts installed on the computer. If you specify on a font that exists on your system, your website visitors must also have the font installed on their machine. There are several fonts known to be installed across Windows and Mac computers, such as Arial, Helvetica, Times New Roman, Georgia, Verdana. Choices are limited.
-- **Externally hosted webfonts**: Google Fonts & Adobe Fonts offer services with easy implementation — simply copy/paste the provided code.
-- **Self-hosted webfonts**: if you upload your own font files, you can use the `@font-face` rule. [Font Squirrel](http://www.fontsquirrel.com/tools/webfont-generator) has a web font generator that converts desktop fonts to web font formats, but you may not have the permissions. 
+- **System fonts** These are fonts installed on the computer. If you specify on a font that exists on your system, your website visitors must also have the font installed on their machine. There are several fonts known to be installed across Windows and Mac computers, such as Arial, Helvetica, Times New Roman, Georgia, Verdana. Choices are limited.
+- **Externally hosted webfonts** Google Fonts & Adobe Fonts offer services with easy implementation — simply copy/paste the provided code.
+- **Self-hosted webfonts** if you upload your own font files, you can use the `@font-face` rule. [Font Squirrel](http://www.fontsquirrel.com/tools/webfont-generator) has a web font generator that converts desktop fonts to web font formats, but you may not have the permissions. 
 
 Read more on [How to use custom fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) on your website.
 
@@ -247,7 +245,7 @@ Components of the box model
   border: 6px solid coral;
   background: pink;
   padding: 10px;
-  margin: 10px 20px 10px auto;
+  margin: 5px 20px 30px auto;
 }
 ```
 

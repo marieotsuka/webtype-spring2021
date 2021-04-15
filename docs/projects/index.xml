@@ -2,37 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Web Type</title>
-    <link>https://motsuka.com/webtype-spring2021/projects/</link>
+    <link>https://webtype.htmlkitchen.net/projects/</link>
     <description>Recent content in Projects on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://motsuka.com/webtype-spring2021/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://webtype.htmlkitchen.net/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting Started</title>
-      <link>https://motsuka.com/webtype-spring2021/projects/0-getting-started/</link>
+      <title>Typeface as Medium (P2) </title>
+      <link>https://webtype.htmlkitchen.net/projects/project2/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/projects/project2/</guid>
+      <description>“ &amp;hellip; in any context, large or small, designing the medium is managing the potentials and relationships between objects, the activity or disposition immanent in their organization.” – Keller Eastering
+ In this project, you will create a variable font, considering the axes of variation as a medium. You are not only designing the visual instances of letterforms — you are designing the relationship with the typographer (or anyone who uses the font.</description>
+    </item>
+    
+    <item>
+      <title>CSS Letter</title>
+      <link>https://webtype.htmlkitchen.net/projects/2-css-letter/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/projects/2-css-letter/</guid>
+      <description>As an exercise in making form with CSS, we’ll construct (at least) three letters in CSS. Start with the letters n o and d and try to express them as div elements in CSS.
+Be deliberate with the positioning of your shapes, and experiment with CSS properties such as: border, border-radius, transform, overflow
+ when absolutely positioning elements, be sure to wrap the group in a position: relative so that the positioning is relative to the letter, instead of the whole document  This exercise lends itself to 2 approaches.</description>
+    </item>
+    
+    <item>
+      <title>The Inspector</title>
+      <link>https://webtype.htmlkitchen.net/projects/1-inspector/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/projects/1-inspector/</guid>
+      <description>To familiarize ourselves with HTML and CSS, we’re going to dive into the code of existing websites, and “hack” them. Your most helpful tool in coding is going to be the “Inspector.” Learning to use this tool will provide key insights into how your browser is reading the HTML/CSS that you write.
+In this exercise, we’ll be using Google Chrome for its inspector tools. Firefox and Safari also have this function available as well, but the Chrome inspector has many useful features.</description>
+    </item>
+    
+    <item>
+      <title>Community Archive (P1) </title>
+      <link>https://webtype.htmlkitchen.net/projects/project1/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://motsuka.com/webtype-spring2021/projects/0-getting-started/</guid>
-      <description>Slack  Join Slack for class communications  Github GitHub is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects.
- A GitHub account and make a repository for this class.  This will become part of the url for where upload your projects Avoid spaces in the repository name   Review Git Version control or download GitHub Desktop Mac client  Github Desktop is a program that helps you keep track of changes in your code and upload them to your repository.</description>
-    </item>
-    
-    <item>
-      <title>Index</title>
-      <link>https://motsuka.com/webtype-spring2021/projects/collection/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://motsuka.com/webtype-spring2021/projects/collection/</guid>
-      <description>Documentation Develop a single webpage that provides a link to each project you’ve completed this semester. This index page will serve as a homepage for this class. You might also include exercises or alternate drafts that you experimented before developing the final version of your website. As you organize / reorganize your Github repository, make sure to double check that all links, including assets such as fonts and images, are properly linked.</description>
-    </item>
-    
-    <item>
-      <title>Project 1: Subject</title>
-      <link>https://motsuka.com/webtype-spring2021/projects/project1/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://motsuka.com/webtype-spring2021/projects/project1/</guid>
+      <guid>https://webtype.htmlkitchen.net/projects/project1/</guid>
       <description>“My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://webtype.htmlkitchen.net/projects/0-getting-started/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/projects/0-getting-started/</guid>
+      <description>Slack  Join Slack for class communications  Github GitHub is a web-based repository hosting service based on the Git version control and source code management system. GitHub allows individuals and teams of programmers to manage, share, store and make editable revisions to projects. We will be using Github’s code sharing and publishing service to store our class projects.
+ If you don’t have one already, sign up for a GitHub account and make a repository for this class.</description>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>https://webtype.htmlkitchen.net/projects/presentation/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/projects/presentation/</guid>
+      <description>Select a typographic topic of interest and its relationship with web / technology. Consider this as an opportunity to research something you’ve already been exploring, with a specific lense considering the context of the internet, websites, or tools.
+ Sign up here with your topic  Some Possible Topics  An overview of Donald Knuth’s Metafont project The history of Optical Character Recognition and the Google Books archive The use of machine learning in categorizing typefaces The relationship of vertical scripts with CSS typesetting The design of multi-script fonts On bilingual typesetting A deep-dive into the design and use of a particular typeface  Requirements  Visual examples Research into the technology or concept About 15min, including questions to the class  Presentations Clear Shen: Multilingual Typesetting Amy Choi: Source Hans (Multilingual Type Design) Nayeon Kim: Unicode and Emojis Will Mianecki: The History of Optical Character Recognition and the Google Books Archive </description>
     </item>
     
   </channel>

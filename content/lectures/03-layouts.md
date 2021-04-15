@@ -1,19 +1,7 @@
 ---
 title: "Layouts and Structure"
-date: 2020-02-19
-draft: true
+date: 2021-03-05
 summary: "Positioning, layouts, and responsive design"
-reference:
- - title: "Dedesign The Web"
-   link: "http://dedesigntheweb.com/2.html"
- - title: "Trans Books"
-   link: "https://transbooks.center/2017/"
- - title: "Untitled Sans"
-   link: "http://untitledsans.com/"
- - title: "RISD.edu"
-   link: "https://www.risd.edu/"
- - title: "Digital Strategies in Genre-Defining Magazines"
-   link: "https://digital-strategies.ma-ad.ch/interview/interview-with-dan-michaelson/"
 ---
 
 ## Normal Flow

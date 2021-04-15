@@ -1,17 +1,8 @@
 ---
 title: "jQuery and JSON"
-date: 2020-03-11
-draft: true
+date: 2021-04-08
 summary: "Objects in JavaScript"
-reference:
-  - title: "Data.gov APIs"
-    link: "https://www.data.gov/developers/apis"
-  - title: "API List"
-    link: "https://apilist.fun/"
 ---
-
-* [In-class demo files](https://github.com/risd-web/webtype-demos/tree/master/04-javascript)
-* See also [Code Lab example](https://github.com/RISD-Code-Lab/cl-spring2020/tree/master/session-04)
 
 ## jQuery
 
@@ -143,4 +134,7 @@ To load JSON data using jQuery, use the `getJSON()` or `ajax()` method. The `jQu
 </body>
 </html>
 ```
+
+* [Data.gov APIs](https://www.data.gov/developers/apis)
+* [API List](https://apilist.fun/)
 

@@ -4,11 +4,12 @@ title: "Type Resources"
 
 Below are links to some resources for typefaces and typography.
 
-## Webfont distributors
-- Any foundry website
-- [Adobe Fonts](https://typekit.com/fonts)
-- [Google Web Fonts](http://www.google.com/fonts)
-	- [Should you self-host Google Fonts?](https://www.tunetheweb.com/blog/should-you-self-host-google-fonts/)
+
+## Typography Reference
+- [Using Type in the Digital Realm with Indra Kupferschmid](https://vimeo.com/207370918)
+- [Matthew Butterick’s Practical Typography](https://practicaltypography.com/)
+- [Typewolf](https://www.typewolf.com/)
+- [Ellen Lupton's Thinking with Type](http://thinkingwithtype.com/)
 
 ## Open Source
 - [Open Foundry](https://open-foundry.com/fonts/bagnard_sans_regular)
@@ -21,14 +22,13 @@ Below are links to some resources for typefaces and typography.
 - [League of Movable Type](https://www.theleagueofmoveabletype.com/manifesto)
 - [Font Squirrel](https://www.fontsquirrel.com/) and [webfont generator](http://www.fontsquirrel.com/tools/webfont-generator)
 
-## Typography Reference
-- [Matthew Butterick’s Practical Typography](https://practicaltypography.com/)
-- [Typewolf](https://www.typewolf.com/)
-- [Ellen Lupton's Thinking with Type](http://thinkingwithtype.com/)
+## Webfont distributors
+- Any foundry website
+- [Adobe Fonts](https://typekit.com/fonts)
+- [Google Web Fonts](http://www.google.com/fonts)
+	- [Should you self-host Google Fonts?](https://www.tunetheweb.com/blog/should-you-self-host-google-fonts/)
 
-
-## Foundry Websites 
-- [Occupant Fonts](http://www.occupantfonts.com/)
+## Foundry websites 
 - [Commercial Type Showcase](http://showcase.commercialtype.com/)
 - [Colophon Foundry](https://www.colophon-foundry.org/)
 - [Klim Type](https://klim.co.nz/)
@@ -38,9 +38,9 @@ Below are links to some resources for typefaces and typography.
 - [DJR](https://djr.com/)
 - [Vocal Type](https://www.vocaltype.co/)
 - [Frere-Jones Type](https://frerejones.com/)
+- [Occupant Fonts](http://www.occupantfonts.com/)
 
-
-## Type technology tools and reference
+## Type technology
 - [Using @font-face](https://css-tricks.com/snippets/css/using-font-face/)
 - [A Variable Fonts Primer](https://variablefonts.io/)
 - [typetura.js](https://github.com/typetura/typetura.js)

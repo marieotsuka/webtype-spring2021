@@ -4,8 +4,9 @@ $(function(){
 	$("body").on("click", function(event){
 		let target = $(event.target);
 
-		if( !target.is('a')){
+		if( !target.is('a') && target.parent('dt').length==0){
 			// if not clicking on link
+			console.log('ignore');
 
 			if (target.hasClass('element')){
 				target.remove();

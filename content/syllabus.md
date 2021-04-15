@@ -9,8 +9,8 @@ weight: 1
 * WEB TYPE (RISD GRAPH-2313-01), Spring 2021
 * 3 credit elective
 * Marie Otsuka (motsuka@risd.edu)
-* [Class Meetings on Zoom](https://risd.zoom.us/j/8072945194): Thursdays, 1:10pm–6:10pm EST
-* [Office Hours]((https://docs.google.com/spreadsheets/d/1iLWtgjB2GGkPRLjlcwTficTPRG5eHi7RBHwl1bIZipE/edit?usp=sharing)): Fridays 1:00–2:00pm EST and by appointment
+* [Class Meetings on Zoom](https://risd.zoom.us/j/92822950097): Thursdays, 1:10pm–6:10pm EST
+* [Office Hours](https://docs.google.com/spreadsheets/d/1iLWtgjB2GGkPRLjlcwTficTPRG5eHi7RBHwl1bIZipE/edit?usp=sharing): Fridays 1:00–2:00pm EST and by appointment
 
 
 ## Course Description
@@ -46,11 +46,10 @@ Both are fundamental for communication: one a medium for its distribution, the o
 ## Material Requirements
 * A laptop
 * Software
-	* Github account or personal hosting space
-	* A text editor for coding such as Sublime Text, Atom, Visual Studio Code
+	* Github account (or personal hosting space)
+	* A text editor for coding
 	* A Slack account
 	* Glyphs
-
 
 ## Course Structure
 
@@ -66,7 +65,7 @@ Readings will be dispersed throughout the semester to inform and contextualize o
 ### Presentation & Discussion
 In addition to reading discussions and class critiques, we will have a weekly *show & tell* to share an interesting website or two we’ve each come across over the past week.
 
-Each student is also responsible for preparing a 15min *presentation* on a designer / artist using the browser as an expressive medium. View [this list]() to start.
+Each student is also responsible for preparing a brief 15min *presentation* on a topic surrounding the intersection of web / technology & typography using the browser as an expressive medium. Signup [here](https://docs.google.com/spreadsheets/d/1PukQXcHrMdCvE0ijBvt5N1x78f-7cT9hS8c2WDI78Fs/edit?usp=sharing) to start.
 
 ### Exercises
 Technical exercises, both in and outside of class, will strengthen our coding skills to build robust web pages and enhance our expressive capacity on the web. (Projects are longer term assignments we will crit during class, whereas exercises are shorter tasks that will familiarize you with a technical concept.)

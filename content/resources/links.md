@@ -1,6 +1,5 @@
 ---
 title: "Various types of sites"
-date: 2020-02-10
 weight: 1
 ---
 

@@ -2,57 +2,101 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://motsuka.com/webtype-spring2021/syllabus/</loc>
+    <loc>https://webtype.htmlkitchen.net/syllabus/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/resources/links/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+    <loc>https://webtype.htmlkitchen.net/resources/links/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/schedule/</loc>
+    <loc>https://webtype.htmlkitchen.net/schedule/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/projects/</loc>
-    <lastmod>2021-02-25T00:00:00+00:00</lastmod>
+    <loc>https://webtype.htmlkitchen.net/projects/</loc>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/lectures/</loc>
+    <loc>https://webtype.htmlkitchen.net/lectures/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/resources/</loc>
+    <loc>https://webtype.htmlkitchen.net/resources/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/colophon/</loc>
+    <loc>https://webtype.htmlkitchen.net/colophon/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/projects/0-getting-started/</loc>
+    <loc>https://webtype.htmlkitchen.net/lectures/07-javascript/</loc>
+    <lastmod>2021-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/lectures/08-jquery/</loc>
+    <lastmod>2021-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/schedule/week7/</loc>
+    <lastmod>2021-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/schedule/week6/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/schedule/week5/</loc>
+    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/lectures/03-variable-fonts/</loc>
+    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/schedule/week4/</loc>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/projects/project2/</loc>
+    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/schedule/week3/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/projects/2-css-letter/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/lectures/02-css/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/lectures/03-layouts/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/lectures/04-movement/</loc>
+    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/projects/1-inspector/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/schedule/week2/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/projects/project1/</loc>
     <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/schedule/week1/</loc>
+    <loc>https://webtype.htmlkitchen.net/projects/0-getting-started/</loc>
     <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/lectures/01-html/</loc>
+    <loc>https://webtype.htmlkitchen.net/schedule/week1/</loc>
     <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/projects/collection/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <loc>https://webtype.htmlkitchen.net/lectures/01-html/</loc>
+    <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/</loc>
+    <loc>https://webtype.htmlkitchen.net/lectures/00-webintro/</loc>
+    <lastmod>2021-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/projects/presentation/</loc>
+    <lastmod>2021-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://webtype.htmlkitchen.net/</loc>
     <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/projects/project1/</loc>
-    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <loc>https://webtype.htmlkitchen.net/categories/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/lectures/00-webtype/</loc>
-    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <loc>https://webtype.htmlkitchen.net/resources/common-errors/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/categories/</loc>
+    <loc>https://webtype.htmlkitchen.net/resources/html-terms/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/resources/common-errors/</loc>
+    <loc>https://webtype.htmlkitchen.net/tags/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/resources/html-terms/</loc>
+    <loc>https://webtype.htmlkitchen.net/resources/type-help/</loc>
   </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/tags/</loc>
-  </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/resources/type-help/</loc>
-  </url><url>
-    <loc>https://motsuka.com/webtype-spring2021/resources/web-help/</loc>
+    <loc>https://webtype.htmlkitchen.net/resources/web-help/</loc>
   </url>
 </urlset>

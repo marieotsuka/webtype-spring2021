@@ -3,6 +3,11 @@
   src: url('../fonts/PimMonoGX.ttf'); 
 }
 
+@font-face {
+  font-family: 'DispatchMono';
+  src: url('../fonts/Dispatch_Mono-Bold.ttf'); 
+}
+
 
 * {
 	margin: 0;
@@ -12,12 +17,18 @@
 
 
 :root {
-  --maincolor: rgb(17 29 72); //main body 
-  --secondcolor: rgb(255 104 104); 
-  --thirdcolor: rgb(60 100 245); //links
-  --code-bgcolor: rgb(255 255 215);
+	--maincolor: rgb(35 51 160);
+	--secondcolor: rgb(255 104 104);
+	--thirdcolor: rgb(0 173 100);
+	--code-bgcolor: rgb(255 255 0);
+	--grey: rgb(255 255 251);
 
-  --grey: rgb(251 251 255);
+  // --maincolor: rgb(17 29 72); //main body 
+  // --secondcolor: rgb(255 104 104); 
+  // --thirdcolor: rgb(60 100 245); //links
+  // --code-bgcolor: rgb(255 255 215);
+  // --grey: rgb(251 251 255);
+
   --dark-grey:  rgb(150 150 150);
   --wght: 80;
 
@@ -28,6 +39,7 @@
 body{
 	font-family: 'Pim';
 	font-variation-settings: 'wght' var(--wght), 'wdth' 100, 'slnt' 0;
+	// font-family: serif;
     line-height: 1.7;
  	font-size: 16px;
     color: var(--maincolor);
@@ -146,13 +158,14 @@ h1{
 h2{
 	--wght: 40;
 	font-size: 1.5em;
-	margin-top: 1em;
+	margin-top: 2em;
+	margin-bottom: .5em;
 	color: var(--secondcolor);
 }
 
 
 h3, h4, h5, h6 {
-	--wght: 900;
+	--wght: 120;
 
 	font-weight: normal;
 	font-size: 1em;
@@ -160,16 +173,17 @@ h3, h4, h5, h6 {
 
 p{
 	margin-bottom: 1em;
+	max-width: 42em;
+}
+.content li{
+	max-width: 42em;
 }
 
-
-.anchor{
-	position: relative;
-	top: -100px;
+@mixin codetext{
+	font-family: monospace;
+	font-size: 1rem;
 }
-
 @mixin meta{
-
 	text-align: left;
 	font-size: .75rem;
 	letter-spacing: .08em;
@@ -177,7 +191,18 @@ p{
 }
 
 @mixin smalltext-weight{
-	font-variation-settings: 'wght' 90, 'wdth' 100, 'slnt' 0;
+	font-variation-settings: 'wght' 85, 'wdth' 100, 'slnt' 0;
+}
+
+@mixin mediumfont{
+	font-size: 20px;
+	line-height: 1.5;
+	font-variation-settings: 'wght' 70, 'wdth' 100, 'slnt' 0;
+}
+
+.anchor{
+	position: relative;
+	top: -100px;
 }
 
 time{
@@ -188,6 +213,12 @@ time{
 
 strong {
 	@include meta;
+	border: 2px solid var(--secondcolor);
+	border-radius: 3px;
+	padding: 5px;
+	position: relative;
+	top: -2px;
+	font-variation-settings: 'wght' 100, 'wdth' 100, 'slnt' 0;
 	// @include smalltext-weight;
 }
 
@@ -233,14 +264,12 @@ ul{
 		margin-left: 1em;
 	}
 
-	ul{
-		li{
-			text-indent: -1.5em;
-			padding-left: 1em;
-		}
-		li::before{
-			content: "* ";
-		}
+	li{
+		text-indent: -1.5em;
+		padding-left: 1em;
+	}
+	ul li::before{
+		content: "* ";
 	}
 
 	ol {
@@ -249,18 +278,16 @@ ul{
 	// a:hover::after{
 	// 	content: "→";
 	// }
-
-
-	blockquote{
-    	text-indent: -.4em;
-    	font-size: 1.38em;
-    	line-height: 1.4;
-    	margin-top: .5em;
-
-	}
 }
 
+blockquote {
+	@include mediumfont;
+	text-indent: -.8em;
+	margin-top: .5em;
+	color: var(--secondcolor);
+}
 
+//syntax highlighting
 pre {
 	background: var(--code-bgcolor);
 	padding: 8px;
@@ -268,6 +295,7 @@ pre {
 }
 code{
 	letter-spacing: 0;
+	@include codetext;
 	font-style: normal;
 	background: var(--code-bgcolor);
 	.p{
@@ -293,34 +321,29 @@ p code{
 	font-size: .95em;
 }
 
-// syntax highlighting
-
-
 #eval td:first-child, #eval th:first-child{
 	width: 200px;
 }
 
-@mixin mediumfont{
-	font-size: 20px;
-	line-height: 1.5;
-	font-variation-settings: 'wght' 70, 'wdth' 100, 'slnt' 0;
-}
-
 //schedule formatting
-.index .week{
-	margin-top: 2rem;
-	@include mediumfont;
-	ul{
-		margin-left: -1em;
-		
+.index {
+	.week{
+		margin-top: 2rem;
+		@include mediumfont;
+		ul{
+			margin-left: -1em;
+			
+		}
 	}
-	
+	.row{
+		border-bottom: 1px dotted;
+	}
 }
 
 .row{
 	display: flex;
+	min-height: 45px;
 	padding: 0.5rem;
-	border-bottom: 1px dotted;
 	h4{
 		flex: 1;
 		@include meta;
@@ -338,13 +361,15 @@ p code{
 }
 
 .week-title{
+	font-variation-settings: 'wght' 120, 'wdth' 100, 'slnt' 0;
 	display: inline-block;
 }
 
 
-.links {
+ul.links {
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
 
 	li{
 		@include mediumfont;
@@ -367,17 +392,24 @@ p code{
 
 .index-list{
 	margin-left: 0;
+	.accordion:first-child dd{
+		display: block;
+	}
 	.accordion{
-		border-bottom: 1px dotted var(--maincolor);
+		
 		.assignments{
 			display: flex;
 			.row{
 				display: block;
 				padding: 0;
 				flex: 1;
-				&:first-child{
-					flex: 2;
-				}
+			}
+			.reading, .tuts{
+				flex: 2;
+			}
+
+			.class{
+				flex: 3;
 			}
 		}
 		h4{
@@ -399,7 +431,9 @@ p code{
 	}
 
 	dt {
-		padding: 1em 0;
+		margin: 2em 0 0;
+		border-bottom: 1px solid;
+
 		&:hover{
 			cursor: pointer;
 		}
@@ -409,6 +443,11 @@ p code{
 	}
 }
 
+
+// table styles
+table{
+	margin-bottom: 1rem;
+}
 th{
 	text-align: left;
 	@include meta;
@@ -427,9 +466,9 @@ th, td{
 }
 
 .element{
+	@include codetext;
 	position: absolute;
 	color: var(--thirdcolor);
-	font-weight: bold;
     background: var(--code-bgcolor);
     padding: 8px;
     line-height: 1;
@@ -441,24 +480,37 @@ th, td{
 	border: 1px solid var(--secondcolor);
 }
 
-.link-preview {
-	background: var(--code-bgcolor);
-	margin: 1.5em;
 
-	figcaption{
-		padding: 5px;
-	}
 
-	iframe{	
-		padding: 5px;
-		box-sizing: border-box;
-		width: 100%;
-		height: 200px;
-	}
+//projects formatting
+
+ul.links li.project{
+	border-style: solid;
 }
 
-.terms li{
-	margin-bottom: 1em;
+
+iframe{	
+	padding: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+}
+figcaption{
+	@include meta;
+	margin-bottom: 2rem;
+}
+
+//GLOSSARY
+.terms {
+	article{
+		margin-left: 25%;
+	}
+	p {
+		margin-top: 2em;
+	}
+	h2 + p {
+		margin-top: 0;
+	}
 }
 
 footer{
