@@ -8,6 +8,6 @@ tutorials: "[Codecademy Learn JavaScript: Scope](https://www.codecademy.com/cour
 lectures: "[Variable Font Tutorials](https://risd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=0#folderID=%22aa13b954-db32-4689-8984-ad0100420f6f%22&view=0)"
 ---
 
-- Presentation: Corrine Ang and Jordan Weed
+- Presentation: Jordan Weed
 - Demo: Variable Fonts and JavaScript
 - Variable Font and Web Specimen drafts review, individual check-ins

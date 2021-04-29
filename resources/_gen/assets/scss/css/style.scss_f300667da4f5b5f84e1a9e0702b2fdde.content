@@ -9,22 +9,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-variation-settings: "wght" var(--wght), "wdth" 100, "slnt" 0; }
 
 :root {
-  --maincolor: rgb(35 51 160);
-  --secondcolor: rgb(255 104 104);
-  --thirdcolor: rgb(0 173 100);
+  --maincolor: rgb(0 127 232);
+  --secondcolor: rgb(255 94 0);
+  --thirdcolor: rgb(0 136 111);
   --code-bgcolor: rgb(255 255 0);
-  --grey: rgb(255 255 251);
+  --grey: rgb(255 255 255);
   --dark-grey:  rgb(150 150 150);
-  --wght: 80;
+  --wght: 90;
   --menuheight: 40px;
   --footerheight: 80px; }
 
 body {
   font-family: 'Pim';
-  font-variation-settings: "wght" var(--wght), "wdth" 100, "slnt" 0;
   line-height: 1.7;
   font-size: 16px;
   color: var(--maincolor);
@@ -153,7 +153,8 @@ strong {
   padding: 5px;
   position: relative;
   top: -2px;
-  font-variation-settings: 'wght' 100, 'wdth' 100, 'slnt' 0; }
+  font-variation-settings: 'wght' 100, 'wdth' 100, 'slnt' 0;
+  white-space: nowrap; }
 
 em {
   font-style: normal;
@@ -457,18 +458,47 @@ body.dark {
   100% {
     background-color: green; } }
 
-@media only screen and (max-width: 1100px) {
-  nav ul {
-    margin-left: 0; } }
+@media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 90%; } }
 
 @media only screen and (max-width: 800px) {
-  main, aside, header {
-    position: static;
-    margin: 0;
-    width: 100%; }
-  aside {
-    box-shadow: 0px -5px 5px 2px var(--secondcolor);
-    height: auto; } }
+  body {
+    font-size: 14px; }
+  .container {
+    max-width: 95%; }
+  header {
+    height: auto; }
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+    nav ul li {
+      padding: 0.5rem 1rem;
+      text-transform: uppercase;
+      font-size: .8rem;
+      letter-spacing: 1px; }
+  .index h1 {
+    font-size: 3rem;
+    margin-top: 0; }
+  .index .week {
+    font-size: 1rem; }
+  ul.links li {
+    font-size: 1rem; }
+  nav ul a:hover::before, nav ul a.active::before {
+    left: -0.1em; }
+  nav ul a:hover::after, nav ul a.active::after {
+    right: -0.1em; }
+  .default article {
+    margin-left: 0; }
+  #eval td:first-child, #eval th:first-child {
+    width: 80px; }
+  .index-list .accordion .assignments {
+    display: block; }
+  .index-list .accordion h4 {
+    font-size: .8rem;
+    padding-bottom: 0; }
+  code {
+    font-size: .8rem; } }
 
 @media print {
   header {

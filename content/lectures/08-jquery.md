@@ -100,6 +100,8 @@ A JSON file will look like following, as a set of objects with properties define
 
 All property names have to be surrounded by double quotes, and only simple data expressions are allowed—no function calls, bindings, or anything that involves actual computation. Comments are not allowed in JSON.
 
+Review how to access object items with the [JavaScript — Data Types](/lectures/07-javascript/#data-types), or read more on [Eloquent Javascript](https://eloquentjavascript.net/04_data.html#h_cqg63Sxe3o).
+
 
 ### How to implement JSON
 
@@ -135,6 +137,8 @@ To load JSON data using jQuery, use the `getJSON()` or `ajax()` method. The `jQu
 </html>
 ```
 
+* [Open Weather Map](https://openweathermap.org/)
+* [RiTa.js](https://rednoise.org/rita/)
 * [Data.gov APIs](https://www.data.gov/developers/apis)
 * [API List](https://apilist.fun/)
 

@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://webtype.htmlkitchen.net/lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Responsive Design</title>
+      <link>https://webtype.htmlkitchen.net/lectures/06-responsive/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/lectures/06-responsive/</guid>
+      <description>A flexible typographic systems</description>
+    </item>
+    
+    <item>
       <title>JavaScript</title>
       <link>https://webtype.htmlkitchen.net/lectures/07-javascript/</link>
       <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>

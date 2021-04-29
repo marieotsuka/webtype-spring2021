@@ -1,13 +1,7 @@
 ---
 title: "Responsive Design"
-date: 2020-02-19
-draft: true
-summary: "A flexible typographic system"
-reference:
- - title: "Responsive Web Design"
-   link: "https://alistapart.com/article/responsive-web-design/"
- - title: "Nick Sherman: The Future of Responsive Design"
-   link: "https://nicksherman.com/AEA14/"
+date: 2021-04-15
+summary: "A flexible typographic systems"
 ---
 
 
@@ -76,7 +70,7 @@ Usually, the image container has defined width. The image itself then has `max-w
 
 
 ## Media queries
-Media queries are the crux of responsive design. They define the **breakpoints** at which different CSS rules are applied. **Any CSS rule can be adjusted within the media queries.**
+Media queries are the crux of responsive design. They define the **breakpoints** at which different CSS rules are applied. *Any CSS rule can be adjusted within the media queries.*
 
 You can approach this in two ways.
 1. Desktop first, defining `max-width` breakpoints to go smaller 
@@ -109,3 +103,10 @@ Note: nested brackets
 - Adjusted paragraph widths (measure)
 - Shortened words
 - Adjusted image sizes
+
+
+## Reference
+- [Nick Sherman: Variable Fonts for Responsive Design](https://alistapart.com/blog/post/variable-fonts-for-responsive-design/)
+- [Andrew Johnson: Live Interpolation on the Web](https://alistapart.com/article/live-font-interpolation-on-the-web/)
+- [Scott Kellum: Fluid typography and the creation of Typetura](https://typetura.scottkellum.com/)
+

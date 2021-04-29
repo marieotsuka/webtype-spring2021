@@ -36,10 +36,12 @@
 							<h4>Tutorials</h4>
 							<div class="item">{{ .Params.tutorials | markdownify }}</div>
 						</div>
+						{{  with .Params.lectures}}
 						<div class="row">
 							<h4>Lectures</h4>
-							<div class="item">{{ .Params.lectures | markdownify }}</div>
+							<div class="item">{{ . | markdownify }}</div>
 						</div>
+						{{ end }}
 					</div>
 					
 				</div>
@@ -52,20 +54,21 @@
 					<li><a href="https://risd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=0#folderID=%224db47cb6-f06a-46b1-9d81-acda00f2f8c3%22&view=0" target="_blank">Lecture Recordings</a></li>
 					<li><a href="https://docs.google.com/spreadsheets/d/1iLWtgjB2GGkPRLjlcwTficTPRG5eHi7RBHwl1bIZipE/edit#gid=0" target="_blank">Office Hours</a></li>
 					<li><a href="https://docs.google.com/spreadsheets/d/1PukQXcHrMdCvE0ijBvt5N1x78f-7cT9hS8c2WDI78Fs/edit#gid=0" target="_blank">Presentations</a></li>
+					<li><a href="/projects/presentation/#presentations">Presentation Archive</a></li>
 				</ul>
 				<h2>Students</h2>
 				<ul class="links">
 					<li><a href="https://corinneang.github.io/webtype/">Corinne Izabel Ang</a></li>
 					<li><a href="https://achoi402.github.io/web-type/">Amy Choi</a></li>
-					<li><a href="">Jingyu Feng</a></li>
+					<li><a href="https://jingyu-f.github.io/webtype/">Jingyu Feng</a></li>
 					<li><a href="https://danielgoldbergdesign.com/webtype/">Daniel Goldberg</a></li>
-					<li><a href="">Natalya Ho</a></li>
+					<li><a href="https://nho01.github.io/webtype/">Natalya Ho</a></li>
 					<li><a href="https://nkim16.github.io/webtype/">Nayeon Kim</a></li>
 					<li><a href="https://wmianecki.github.io/webtype_2021_wlm/">Will Mianecki</a></li>
 					<li><a href="https://clear311.github.io/web-type/">Clear Shen</a></li>
-					<li><a href="https://athrasta.github.io/webtype/">Asta Thrastardottir</a></li>
+					<li><a href="https://athrasta.github.io/webtype/">Ásta Þrastardóttir</a></li>
 					<li><a href="https://jweed.github.io/webtype/">Jordan Weed</a></li>
-					<li><a href="">Qianxue Zhao</a></li>
+					<li><a href="https://qianxuesno.github.io/webtypeqianxue/">Qianxue Zhao</a></li>
 				</ul>
 			</section>
 		</article>

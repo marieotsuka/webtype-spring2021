@@ -74,36 +74,50 @@ abcdefghijklmnopqrstuvwxyz
 ### Step 4: Prototype Development
 
 - refine and finalize typeface
-- prototype your website speciment
+- prototype your website specimen
   - what is the journey created through the website?
   - how can you showcase different components of your typeface?
   - if your typeface is a display face, consider pairing another typeface for captions and small text
 - begin experimenting with JavaScript
   - how does the interactive experience align with the concept of the site?
 
+
+### Step 5: Prototype Refinement
+* refine website specimen
+  - what kind of experience are you taking your visitor through with your website?
+  - how does each design choice — typesize, color, motion — align with the concept?
+  - finalize interactivity of the website — what is intuitive vs. what requires instructions?
+  - finalize typographic details
+* design the responsive version
+  - use `@media` queries to make a mobile-friendly version
+  - how does your typography adapt to the smaller screen?
+* consider a page or footer that contextualizes the project ("about section")
+* optional: consider expanding what and how you’re curating your content: use JavaScript, JSON and / or APIs to enhance the experience of your typeface on the web
+
+
 ### Calendar
 
 ```
-Week 1
+Week 4
 Concept exploration
 
-Week 2
+Week 5
 Draft Variable Font in Glyphs
 
-Week 3
+Week 6
 Refine VF
 Explore type specimen designs
 
-Week 4
+Week 7
 Refine type specimen
 Begin integrating VF into browser type
 Begin experimenting with JavaScript
 
-Week 5
-Refine
+Week 8
+Refine craft and functionality
 Make responsive
 
-Week 6
+Week 9
 Final Crit
 Due
 ```
