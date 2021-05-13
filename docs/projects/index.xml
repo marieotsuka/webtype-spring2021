@@ -6,7 +6,17 @@
     <description>Recent content in Projects on Web Type</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://webtype.htmlkitchen.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://webtype.htmlkitchen.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class Site</title>
+      <link>https://webtype.htmlkitchen.net/projects/collection/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://webtype.htmlkitchen.net/projects/collection/</guid>
+      <description>Your class site will serve as documentation for all of your work this semester.
+Develop a single webpage that provides a link to each project and exercise, as well as your presentation. This index page will serve as a homepage for this class. You might also include alternate drafts / planning documents that you experimented before developing the final version of your website. As you organize / reorganize your Github repository, make sure to double check that all links, including assets such as fonts and images, are properly linked.</description>
+    </item>
+    
     <item>
       <title>Useless Machine (P3)</title>
       <link>https://webtype.htmlkitchen.net/projects/project3/</link>
